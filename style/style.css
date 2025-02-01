@@ -1,0 +1,322 @@
+body{
+    background-color: rgba(238, 255, 202, 1);
+    margin: 0%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+
+header{
+    background-color: rgba(238, 255, 202, 1);
+    border: solid;
+    border-color: rgba(160, 169, 101, 1);
+    display: flex;
+    justify-content: space-between;
+}
+.pr{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.milieu{
+    display: flex;
+}
+.tr{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 50px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.bande{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(160, 169, 101, 1);
+    padding: 50px;
+    font-size: 5em;
+    margin-top: 70px;
+    
+}
+.e{
+    margin-left: 50px;
+}
+.i{
+    margin-right: 150px; 
+}
+.olive-image {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: auto;
+  }
+
+  .vs {
+    font-size: 7em; /* ou utilisez une autre unité comme 96px */
+    position: absolute;
+    top: 30%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+    color: rgb(0, 0, 0);
+}
+
+.fleche1{
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+}
+
+.p{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Texte avec arrière-plan */
+.Italie {
+    flex: 1;
+    padding: 20px;
+    background-image: url('img/italie1.png'); /* Image d'arrière-plan */
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover; /* S'adapte à l'espace */
+    color: #333;
+}
+
+.Italie h2 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.Italie p {
+    line-height: 1.8;
+    font-size: 1.5em;    
+}
+.Italie {
+    background-image: url('img/italie 1.png');
+    background-size: contain; /* L'image s'adapte complètement à la div */
+    background-repeat: no-repeat; /* Pas de répétition de l'image */
+    background-position: center; /* Centre l'image */
+    width: 100%; /* Ou une taille fixe si nécessaire */
+    height: auto; /* S'ajuste automatiquement à la hauteur de l'image */
+    aspect-ratio: 1 / 1; /* Conserve les proportions si besoin */
+}
+
+/* Conteneur pour l'image */
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.Espagne {
+    background-image: url('img/espagne\ 1.png');
+    background-size: contain; /* L'image s'adapte complètement à la div */
+    background-repeat: no-repeat; /* Pas de répétition de l'image */
+    background-position: center; /* Centre l'image */
+    width: 50%; /* Ou une taille fixe si nécessaire */
+    height: auto; /* S'ajuste automatiquement à la hauteur de l'image */
+    aspect-ratio: 1 / 1; /* Conserve les proportions si besoin */
+    margin: 50px;
+}
+
+.Espagne p {
+    line-height: 1.8;
+    font-size: 1.5em;
+}
+
+
+.link {
+    fill: none;
+    stroke-opacity: 0.3;
+    stroke: rgb(57, 152, 79);
+  }
+  .link:hover {
+    stroke-opacity: 0.6;
+    stroke: rgb(105, 151, 99);
+  }
+  .node rect {
+    cursor: move;
+    fill-opacity: 0.8;
+    shape-rendering: crispEdges;
+  }
+  .node text {
+    pointer-events: none;
+    font: 12px sans-serif;
+  }
+  .tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+    visibility: hidden;
+     }
+
+     .graphique {
+        transform: scale(0.8);
+        transform-origin: top left;
+        display: flex;
+        gap: 50px;
+      }
+      
+
+     .graphique p{
+        width: 40%;
+        font-size: x-large;
+        margin-left: 10px;
+     }
+
+     .tit{
+        margin: 10%;
+        display: flex;
+        justify-content: center;
+     }
+
+     .graphique svg{
+        width: 1000px; height: 1000px; 
+     }
+
+     .fil{
+        width: 50%;
+        
+     }
+
+     .fleche{
+        display: flex;
+        justify-content: center;
+        margin-top: 4%;
+        margin-bottom: 10%;
+     }
+.bouton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+     button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 20px;
+        background-color: #a8ad63; /* Couleur olive */
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        max-width: 400px;
+        gap: 15px;
+        
+    }
+    
+    button:hover {
+        background-color: #150c1f; /* Couleur olive */
+        transform: translateY(-3px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
+    
+    button img {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+    }
+    
+
+
+
+
+     footer {
+        background-color: #a8ad63; /* Couleur olive */
+        color: #fff;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-logo img {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+    .footer-logo h2 {
+        font-size: 16px;
+        margin: 0;
+        text-transform: uppercase;
+        line-height: 1.5;
+    }
+
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-nav a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .footer-nav a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-bottom {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+        color: #f4f4f4;
+        border-top: 1px solid #f4f4f4;
+        padding-top: 10px;
+    }
